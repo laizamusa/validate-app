@@ -1,0 +1,438 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/leadinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textColor="#404040"
+            android:text="Team Leaders"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="40dp"
+        >
+        <RadioGroup
+            android:id="@+id/rGroupButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/tck1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Bryan Gasga"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:visibility="gone"
+                android:contentDescription="sample"/>
+
+            <RadioButton
+                android:id="@+id/tck2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Bryans Gasga"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:visibility="gone"
+                android:contentDescription="sample"/>
+
+            <RadioButton
+                android:id="@+id/tck3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Bryan Gasga"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:visibility="gone"
+                android:contentDescription="sample"/>
+
+            <RadioButton
+                android:id="@+id/tck4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Bryan Gasga"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:visibility="gone"
+                android:contentDescription="sample"/>
+
+            <RadioButton
+                android:id="@+id/tck5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Bryan Gasga"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:visibility="gone"
+                android:contentDescription="sample"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/questionHead_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textColor="#404040"
+            android:text="2."
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/questionHead_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#404040"
+            android:textStyle="bold"
+            android:text="Updated all concerned departments on negotiations status of the venues and/or other channels"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/choices1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:visibility="gone"
+            android:text="Details explained through Gantt Chart"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/multiple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/ck1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/MyRadioButton"
+            android:visibility="visible"
+            android:contentDescription="sample"/>
+
+        <CheckBox
+            android:id="@+id/ck2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:theme="@style/MyRadioButton"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/MyRadioButton"
+            android:visibility="gone"/>
+        <CheckBox
+            android:id="@+id/ck9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/MyRadioButton"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/ck10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#404040"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/MyRadioButton"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RadioGroup
+            android:id="@+id/rGroupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:theme="@style/MyRadioButton"
+                android:layout_marginBottom="5dp"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:theme="@style/MyRadioButton"
+                android:layout_marginBottom="5dp"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:theme="@style/MyRadioButton"
+                android:layout_marginBottom="5dp"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:theme="@style/MyRadioButton"
+                android:layout_marginBottom="5dp"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:theme="@style/MyRadioButton"
+                android:layout_marginBottom="5dp"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyRadioButton"
+                android:text="Yes"
+                android:visibility="gone"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

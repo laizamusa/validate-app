@@ -1,0 +1,31 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.LoginActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="300"
+        android:title="Add Employee"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_add_events"
+        android:orderInCategory="300"
+        android:title="Add Event"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_result"
+        android:orderInCategory="300"
+        android:title="Result"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="300"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>
